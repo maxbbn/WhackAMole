@@ -1,0 +1,18 @@
+.gameBoard {
+    width: 600px;
+    height: 600px;
+}
+
+.gameBoard button.mole {
+    /* 生成地鼠的按钮样式，方形 */
+    width: 33%;
+    height: 33%;
+    border-radius: 0;
+}
+
+.gameBoard button.active {
+    /* 生成激活状态，用 .active 样式 */
+    /* 使用背景色，背景色应该使用地鼠颜色 */
+    background-color: #8B4513;
+}
+
